@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventLab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <div class="py-6 bg-white">
+      <header class="flex justify-between items-center contenedor">
+        <img src="/img/logo.png" alt="Logo EventLab" />
+        <nav class="flex gap-4">
+          <a
+            class="uppercase text-red-700 transition-all font-medium"
+            href="/crear-cuenta"
+            >Crear Grupo</a
+          >
+          <a
+            class="uppercase hover:text-red-700 transition-all font-medium"
+            href=""
+            >Iniciar Sesion</a
+          >
+          <a
+            class="uppercase hover:text-red-700 transition-all font-medium"
+            href="/crear-cuenta"
+            >Registrarse</a
+          >
+        </nav>
+      </header>
+    </div>
+
+    <%- body %>
+
+    <footer class="bg-gray-700 py-6">
+      <div class="contenedor grid grid-cols-4">
+        <div>
+          <h3 class="text-white font-bold text-2xl">Links Rapidos</h3>
+
+          <ul class="text-white pl-8 mt-4 font-semibold">
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Nosotros</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Eventos</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Horarios</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Soporte</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-span-2 text-center">
+          <h2 class="uppercase text-white text-3xl font-bold">
+            Suscríbete a nuestro boletín
+          </h2>
+          <h3 class="uppercase text-rose-700 text-xl font-bold">
+            No te pierdas nuestra actualización destacada.
+          </h3>
+        </div>
+        <div>
+          <h3 class="text-white font-bold text-2xl">Contacto</h3>
+
+          <ul class="text-white pl-8 mt-4 font-semibold">
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Nosotros</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Eventos</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Horarios</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+              <a href="">Soporte</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+/* public/styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+ol,
+ul,
+menu {
+  list-style: disc;
+  margin: auto;
+  padding: auto;
+}
