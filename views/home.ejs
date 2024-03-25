@@ -7,6 +7,143 @@
     <link rel="stylesheet" href="/css/app.css" />
   </head>
   <body>
-    <h1>Hola Mundo</h1>
+    <header
+      class="background-home pb-[250px] mb-[-90px] pt-[100px] bg-gradient-to-b from-white to-pink-300"
+    >
+      <div class="contenedor grid grid-cols-2 gap-6">
+        <div class="flex flex-col justify-center">
+          <div class="flex gap-4 items-center">
+            <img class="w-6 h-6" src="/img/calendar.png" alt="Calendario" />
+            <h4 class="text-rose-700 text-2xl font-bold">
+              Febrero 23, del 2025
+            </h4>
+          </div>
+          <h1
+            class="text-6xl mt-6 font-extrabold leading-[80px] uppercase text-gray-800"
+          >
+            Eventos, Meetups <br />
+            & <span class="text-rose-700">Conferencias</span>
+          </h1>
+
+          <div class="flex items-center gap-10 mt-5">
+            <div class="flex gap-4 items-center">
+              <img class="w-5 h-5" src="/img/diagram.png" alt="Diagram Logo" />
+              <p class="text-gray-800 font-medium text-[17px]">
+                <span class="font-extrabold">500</span> Asientos
+              </p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <img class="w-5 h-5" src="/img/speaker.png" alt="Diagram Logo" />
+              <p class="text-gray-800 font-medium text-[17px]">
+                <span class="font-extrabold">10</span> Speaker
+              </p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <img class="w-5 h-5" src="/img/location.png" alt="Diagram Logo" />
+              <p class="text-gray-800 font-medium text-[17px]">
+                Muchos Lugares a Visitar
+              </p>
+            </div>
+          </div>
+
+          <div class="flex mt-10 gap-6">
+            <a
+              class="px-7 py-3 text-white bg-rose-700 font-bold rounded-lg hover:text-rose-700 hover:bg-transparent transition-all duration-300 border border-rose-700"
+              href=""
+              >Crear Grupo</a
+            >
+            <a
+              class="px-7 py-3 text-rose-700 border border-rose-700 font-bold rounded-lg hover:text-white hover:bg-rose-700 transition-all duration-300"
+              href=""
+              >Iniciar Sesion</a
+            >
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="/img/headerimg.png" alt="Header Img" />
+        </div>
+      </div>
+    </header>
+
+    <div class="contenedor bg-white py-[70px] px-6 rounded-xl">
+      <form class="grid grid-cols-4 gap-4" action="">
+        <input
+          class="border border-rose-700 p-3 rounded-lg"
+          type="text"
+          placeholder="Ubicacion"
+        />
+        <input
+          class="border border-rose-700 p-3 rounded-lg"
+          type="date"
+          placeholder=""
+        />
+        <select
+          class="border border-rose-700 p-3 rounded-lg"
+          name=""
+          id=""
+        ></select>
+
+        <input
+          class="border border-rose-700 bg-rose-700 text-white font-bold cursor-pointer p-3 rounded-lg"
+          type="submit"
+          value="Buscar Ahora"
+        />
+      </form>
+    </div>
+
+    <main class="contenedor pb-[100px]">
+      <h2
+        class="text-5xl text-center mt-6 font-extrabold leading-[80px] uppercase text-gray-800"
+      >
+        Próximos Eventos
+      </h2>
+
+      <div class="grid grid-cols-3 mt-[40px]">
+        <div class="rounded-xl bg-white shadow-xl">
+          <div class="relative">
+            <img class="w-full" src="/img/eventdemo.png" alt="Demo" />
+            <div
+              class="px-5 py-3 bg-rose-700 rounded-lg absolute bottom-0 left-0"
+            >
+              <div class="flex items-center gap-4">
+                <img
+                  class="w-6 h-6"
+                  src="/img/diagram-white.png"
+                  alt="Diagram White"
+                />
+                <p class="text-white font-bold text-lg">100 Participantes</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="flex justify-between mb-4">
+              <div class="flex gap-2">
+                <img
+                  class="w-4 h-4"
+                  src="/img/calendar-red.png"
+                  alt="Calendario"
+                />
+                <p class="text-sm">Enero 21, 2024</p>
+              </div>
+
+              <div class="flex gap-2">
+                <img class="w-4 h-4" src="/img/location.png" alt="location" />
+                <p class="text-sm">Broadw, New York</p>
+              </div>
+            </div>
+            <a
+              class="text-gray-800 hover:text-rose-700 transition-all duration-200 text-xl font-semibold"
+              href=""
+              >Media Companies Need To Better One Then Educate Advertisers.</a
+            >
+            <a
+              class="underline block mt-2 text-rose-700 text-lg font-medium"
+              href="#"
+              >Deseo Participar</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

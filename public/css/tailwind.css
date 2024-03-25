@@ -13,10 +13,24 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+
 ol,
 ul,
 menu {
   list-style: disc;
   margin: auto;
   padding: auto;
+}
+
+.background-home {
+  background: (
+    from 243.17deg at 52.66% 45.72%,
+    rgba(206, 20, 70, 0.25) 0deg,
+    hsla(0, 0%, 100%, 0) 66.85deg,
+    rgba(222, 95, 129, 0.3) 266.25deg,
+    rgba(206, 20, 70, 0.25) 1turn
+  );
 }
