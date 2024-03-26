@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EventLab</title>
+    <title>EventLab - <%- nombrePagina %></title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,17 +22,17 @@
         <img src="/img/logo.png" alt="Logo EventLab" />
         <nav class="flex gap-4">
           <a
-            class="uppercase text-red-700 transition-all font-medium"
+            class="uppercase text-rose-700 text-medium transition-all font-medium"
             href="/crear-cuenta"
             >Crear Grupo</a
           >
           <a
-            class="uppercase hover:text-red-700 transition-all font-medium"
+            class="uppercase hover:text-rose-700 text-medium transition-all font-medium"
             href=""
             >Iniciar Sesion</a
           >
           <a
-            class="uppercase hover:text-red-700 transition-all font-medium"
+            class="uppercase hover:text-rose-700 text-medium transition-all font-medium"
             href="/crear-cuenta"
             >Registrarse</a
           >
@@ -40,7 +40,19 @@
       </header>
     </div>
 
-    <%- body %>
+    <% if (paginaInterna) { %>
+    <div class="bg-intern-page py-[100px] flex flex-col items-center">
+      <div class="contenedor">
+        <h2 class="text-white font-bold text-5xl"><%- nombrePagina  %></h2>
+
+        <div class="flex gap-4 items-center mt-[50px]">
+          <a class="text-white text-lg" href="/">Home</a>
+          <img class="w-4 h-4 font-bold" src="/img/play.png" alt="play" />
+          <p class="text-rose-700 text-lg"><%- nombrePagina  %></p>
+        </div>
+      </div>
+    </div>
+    <% } %> <%- body %>
 
     <footer class="bg-gray-700 py-[80px]">
       <div class="contenedor">

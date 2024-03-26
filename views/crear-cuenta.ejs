@@ -1,1 +1,60 @@
-<h1>Crear Cuenta</h1>
+<main class="contenedor py-[80px]">
+  <h1 class="text-center font-bold text-5xl text-rose-700">
+    <%- nombrePagina %>
+  </h1>
+  <form
+    class="mt-10 px-[70px] flex flex-col gap-6"
+    action="/crear-cuenta"
+    method="post"
+  >
+    <div class="grid grid-cols-4 items-center">
+      <label class="text-lg font-medium text-gray-800" for="email">Email</label>
+      <input
+        class="col-span-3 p-3 border border-2 border-gray-400"
+        type="email"
+        name="email"
+        placeholder="Tu Email"
+      />
+    </div>
+    <div class="grid grid-cols-4 items-center">
+      <label class="text-lg font-medium text-gray-800" for="nombre"
+        >Nombre</label
+      >
+      <input
+        class="col-span-3 p-3 border border-2 border-gray-400"
+        type="text"
+        name="nombre"
+        placeholder="Tu Nombre"
+      />
+    </div>
+    <div class="grid grid-cols-4 items-center">
+      <label class="text-lg font-medium text-gray-800" for="password"
+        >Password</label
+      >
+      <input
+        class="col-span-3 p-3 border border-2 border-gray-400"
+        type="password"
+        name="password"
+        placeholder="Tu Password"
+      />
+    </div>
+    <div class="grid grid-cols-4 items-center">
+      <label class="text-lg font-medium text-gray-800" for="repetirpassword"
+        >Repetir Password</label
+      >
+      <input
+        class="col-span-3 p-3 border border-2 border-gray-400"
+        type="text"
+        name="repetirpassword"
+        placeholder="Repite tu Password"
+      />
+    </div>
+    <div class="flex justify-end">
+      <input
+        type="submit"
+        class="border border-rose-700 bg-rose-700 text-white font-bold cursor-pointer py-3 px-7"
+        value="Crea Cuenta"
+      />
+    </div>
+  </form>
+</main>
