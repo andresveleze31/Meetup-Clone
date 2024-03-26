@@ -65,7 +65,7 @@
       </div>
     </header>
 
-    <div class="contenedor bg-white py-[70px] px-6 rounded-xl">
+    <div class="contenedor bg-white shadow-xl py-[70px] px-6 rounded-xl">
       <form class="grid grid-cols-4 gap-4" action="">
         <input
           class="border border-rose-700 p-3 rounded-lg"
@@ -92,16 +92,117 @@
     </div>
 
     <main class="contenedor pb-[100px]">
+      <h2 class="text-borded-red">Eventos</h2>
       <h2
-        class="text-5xl text-center mt-6 font-extrabold leading-[80px] uppercase text-gray-800"
+        class="text-5xl text-center mt-2 font-extrabold leading-[80px] uppercase text-gray-800"
       >
         Próximos Eventos
       </h2>
 
-      <div class="grid grid-cols-3 mt-[40px]">
-        <div class="rounded-xl bg-white shadow-xl">
-          <div class="relative">
-            <img class="w-full" src="/img/eventdemo.png" alt="Demo" />
+      <div class="grid grid-cols-3 mt-[40px] gap-6">
+        <div class="rounded-xl group bg-white shadow-xl">
+          <div class="relative overflow-hidden">
+            <img
+              class="w-full group-hover:scale-110 transition-all duration-300"
+              src="/img/eventdemo.png"
+              alt="Demo"
+            />
+            <div
+              class="px-5 py-3 bg-rose-700 rounded-lg absolute bottom-0 left-0"
+            >
+              <div class="flex items-center gap-4">
+                <img
+                  class="w-6 h-6"
+                  src="/img/diagram-white.png"
+                  alt="Diagram White"
+                />
+                <p class="text-white font-bold text-lg">100 Participantes</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="flex justify-between mb-4">
+              <div class="flex gap-2">
+                <img
+                  class="w-4 h-4"
+                  src="/img/calendar-red.png"
+                  alt="Calendario"
+                />
+                <p class="text-sm">Enero 21, 2024</p>
+              </div>
+
+              <div class="flex gap-2">
+                <img class="w-4 h-4" src="/img/location.png" alt="location" />
+                <p class="text-sm">Broadw, New York</p>
+              </div>
+            </div>
+            <a
+              class="text-gray-800 hover:text-rose-700 transition-all duration-200 text-xl font-semibold"
+              href=""
+              >Media Companies Need To Better One Then Educate Advertisers.</a
+            >
+            <a
+              class="underline block mt-2 text-rose-700 text-lg font-medium"
+              href="#"
+              >Deseo Participar</a
+            >
+          </div>
+        </div>
+        <div class="rounded-xl group bg-white shadow-xl">
+          <div class="relative overflow-hidden">
+            <img
+              class="w-full group-hover:scale-110 transition-all duration-300"
+              src="/img/eventdemo.png"
+              alt="Demo"
+            />
+            <div
+              class="px-5 py-3 bg-rose-700 rounded-lg absolute bottom-0 left-0"
+            >
+              <div class="flex items-center gap-4">
+                <img
+                  class="w-6 h-6"
+                  src="/img/diagram-white.png"
+                  alt="Diagram White"
+                />
+                <p class="text-white font-bold text-lg">100 Participantes</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="flex justify-between mb-4">
+              <div class="flex gap-2">
+                <img
+                  class="w-4 h-4"
+                  src="/img/calendar-red.png"
+                  alt="Calendario"
+                />
+                <p class="text-sm">Enero 21, 2024</p>
+              </div>
+
+              <div class="flex gap-2">
+                <img class="w-4 h-4" src="/img/location.png" alt="location" />
+                <p class="text-sm">Broadw, New York</p>
+              </div>
+            </div>
+            <a
+              class="text-gray-800 hover:text-rose-700 transition-all duration-200 text-xl font-semibold"
+              href=""
+              >Media Companies Need To Better One Then Educate Advertisers.</a
+            >
+            <a
+              class="underline block mt-2 text-rose-700 text-lg font-medium"
+              href="#"
+              >Deseo Participar</a
+            >
+          </div>
+        </div>
+        <div class="rounded-xl group bg-white shadow-xl">
+          <div class="relative overflow-hidden">
+            <img
+              class="w-full group-hover:scale-110 transition-all duration-300"
+              src="/img/eventdemo.png"
+              alt="Demo"
+            />
             <div
               class="px-5 py-3 bg-rose-700 rounded-lg absolute bottom-0 left-0"
             >
@@ -145,5 +246,277 @@
         </div>
       </div>
     </main>
+
+    <div class="bg-banner-main">
+      <div class="contenedor grid grid-cols-4 gap-8">
+        <div class="flex flex-col items-center">
+          <img src="/img/speakerbanner.png" alt="Speaker Img" />
+          <h2 class="text-[60px] text-center font-bold text-white">100 +</h2>
+          <h4 class="text-[27px] text-center text-white font-medium">
+            Mejores Integrantes
+          </h4>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/img/eventbanner.png" alt="Speaker Img" />
+          <h2 class="text-[60px] text-center font-bold text-white">600 +</h2>
+          <h4 class="text-[27px] text-center text-white font-medium">
+            Eventos Ideales
+          </h4>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/img/calendarbanner.png" alt="Speaker Img" />
+          <h2 class="text-[60px] text-center font-bold text-white">200 +</h2>
+          <h4 class="text-[27px] text-center text-white font-medium">
+            Muchos Horarios
+          </h4>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="/img/participantsbanner.png" alt="Speaker Img" />
+          <h2 class="text-[60px] text-center font-bold text-white">400 +</h2>
+          <h4 class="text-[27px] text-center text-white font-medium">
+            Muchos Participantes
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-[80px]">
+      <div class="contenedor">
+        <h2 class="text-borded-red">Categorias</h2>
+        <h2
+          class="text-5xl text-center mt-6 font-extrabold leading-[80px] uppercase text-gray-800"
+        >
+          Encuentra Grupos por Categoria
+        </h2>
+
+        <div class="grid grid-cols-3 gap-10 mt-10">
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_1.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Programacion</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_2.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Diseño</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_3.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">
+                    Negocios y Emprendimiento
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_4.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Moda y Estilo</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_5.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">
+                    Salud y Ejercicio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_6.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">
+                    Fotografia y Viajes
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_7.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Comida y Bebidas</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_8.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">
+                    Diseño y Arquitectura
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_9.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Cafe</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_10.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Cine y Peliculas</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_11.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Libros</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="rounded-xl bg-white shadow-xl">
+              <img
+                class="w-full rounded-t-md"
+                src="/img/categoria_12.jpg"
+                alt="Demo"
+              />
+              <div class="px-5 py-4 bg-rose-700 rounded-b-md">
+                <div class="flex items-center gap-4">
+                  <p class="text-white font-medium text-xl">Aprendizaje</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-banner py-[100px]">
+      <div class="contenedor">
+        <h2 class="text-white uppercase font-bold text-center text-5xl">
+          Siguiente Evento
+        </h2>
+
+        <div class="grid grid-cols-4 mt-[70px] items-center">
+          <div class="border-r border-r-rose-700 border-dotted border-r-4">
+            <h3 class="text-borded text-center">123</h3>
+            <p class="text-3xl font-bold text-center text-white">Dias</p>
+          </div>
+          <div class="border-r border-r-rose-700 border-dotted border-r-4">
+            <h3 class="text-borded text-center">16</h3>
+            <p class="text-3xl font-bold text-center text-white">Horas</p>
+          </div>
+          <div class="border-r border-r-rose-700 border-dotted border-r-4">
+            <h3 class="text-borded text-center">05</h3>
+            <p class="text-3xl font-bold text-center text-white">Minutos</p>
+          </div>
+          <div>
+            <h3 class="text-borded text-center">30</h3>
+            <p class="text-3xl font-bold text-center text-white">Segundos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-slate-100 py-[100px]">
+      <div class="contenedor">
+        <h2 class="text-borded-red">Testimonios</h2>
+        <div class="grid grid-cols-2">
+          <div class="mt-6">
+            <h4 class="text-2xl text-rose-700 font-medium">Testimoniales</h4>
+            <h2
+              class="text-5xl font-extrabold leading-[80px] uppercase text-gray-800"
+            >
+              Lo que dice la gente de EventLab
+            </h2>
+            <p class="leading-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              cum autem corporis amet ex itaque rem, eveniet nam totam
+              perspiciatis sequi laborum aspernatur, voluptatem voluptas eum
+              maiores sunt. Debitis, suscipit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
